@@ -1,0 +1,14 @@
+name: Hub
+version: '1.0'
+main: fr.aximox.hub.commands.Main
+api-version: '1.18'
+load: STARTUP
+commands:
+  test:
+    description: ceci est une commande de test
+  say:
+    description: Ceci est une annonce custom
+  hub:
+    description: Cette commande teleporte au hub
+  pvp:
+    description: Arene PvP
